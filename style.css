@@ -119,16 +119,24 @@ header{
 .feed-card{
     display: flex;
     width: 900px;
-    gap: 20px;
+    justify-content: space-between;
+gap: 20px;
     padding: 24px 24px;
     margin: 0 auto;
+
 }
-.flex-2{
-    display: flex;
-}
+
 .feedback{
     text-align: center;
 }
 .feedback img{
     border-radius:1000px;
+}
+.card{
+    width: 250px;
+    text-align: left;
+    border-radius: 15px;
+    /* border: 5px solid red; */
+    box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.347);
+    padding: 24px;
 }
