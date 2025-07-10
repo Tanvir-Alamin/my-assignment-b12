@@ -1,8 +1,12 @@
+body{
+    background-color: #4d47ff05;
+}
 /* Nav Style */
-.iconic-blue-color{
+.iconic-blue-color {
     color: #4E47FF;
 }
-.sign-up-btn{
+
+.sign-up-btn {
     background-color: #4E47FF;
     border-radius: 10px;
     padding: 12px 36px;
@@ -10,53 +14,60 @@
     font-weight: bold;
     font-size: 16px;
 }
-.a-link{
+
+.a-link {
     text-decoration: none;
     color: white;
 }
-.web-logo{
+
+.web-logo {
     font-weight: bold;
     font-size: 34px;
 }
 
-.inter-font{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.inter-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.railway-font{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+.railway-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.nav-holder{
+
+.nav-holder {
     display: flex;
     justify-content: space-between;
     margin: 0px 150px;
 }
-.sign-up-btn{
+
+.sign-up-btn {
     position: top right;
 }
+
 /* Header Style */
-header{
+header {
     background-image: url('Assets/Hero-bg.png');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 698px;
 }
-.header-title{
+
+.header-title {
     color: #252432;
     font-weight: bold;
     font-size: 65px;
 }
 
-.header-dis{
+.header-dis {
     text-align: center;
     margin-top: 158px;
     margin-left: 200px;
@@ -64,79 +75,136 @@ header{
 }
 
 /* action center */
-.action-title{
+.action-title {
     font-size: 42px;
     font-weight: bold;
 }
-.action-dis{
+
+.action-dis {
     font-size: 24px;
     font-weight: 16px;
     color: #25243250;
 }
-.action-img{
+
+.action-img {
     border-radius: 45px;
     width: 403px;
 }
-.action{
+
+.action {
     display: flex;
     justify-content: center;
     margin: 268px 159px 116px 141px;
     gap: 220px;
 }
-.action-div1{
+
+.action-div1 {
     width: 517px;
 }
+
 /* productive center */
-.productive{
+.productive {
     text-align: center;
     margin: 116px 159px 137px 141px;
-    background-color: #4E47FF10;
+    background-color: #4d47ff1f;
     border-radius: 24px;
     padding: 50px 142px;
 }
-.tiles{
+
+.tiles {
     display: flex;
     justify-content: center;
     gap: 158px;
 }
-.productive-title{
+
+.productive-title {
     font-size: 35px;
     font-weight: bold;
 }
-.tiles-head{
+
+.tiles-head {
     font-size: 70px;
     font-weight: bold;
 }
-.tiles-dis{
+
+.tiles-dis {
     font-size: 20px;
     margin: 0%;
 
 }
-.feed-title{
+
+.feed-title {
     font-size: 42px;
     font-weight: bold;
 }
-.feed-card{
+
+.feed-card {
     display: flex;
     width: 900px;
     justify-content: space-between;
-gap: 20px;
+    gap: 20px;
     padding: 24px 24px;
     margin: 0 auto;
 
 }
 
-.feedback{
+.feedback {
     text-align: center;
 }
-.feedback img{
-    border-radius:1000px;
+
+.feedback img {
+    border-radius: 1000px;
 }
-.card{
+
+.card {
     width: 250px;
     text-align: left;
     border-radius: 15px;
     /* border: 5px solid red; */
     box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.347);
     padding: 24px;
+}
+
+
+/* Let get in touch */
+.get-in-touch h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 170px;
+}
+form{
+    width: 250px;
+    
+}
+.from-1{
+    width: 120%;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+footer h1{
+    color: #4E47FF;
+    font-size: 100px;
+}
+footer p{
+    color: #8987A1;
+}
+footer a {
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    width: 531px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 103px;
+}
+footer div{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
